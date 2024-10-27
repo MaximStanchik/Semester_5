@@ -1,0 +1,86 @@
+select * from dba_tablespaces;
+
+--------------------Task_1--------------------
+
+create tablespace TS_SMA 
+datafile 'D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Database\Laboratory works\LBR_02\Solution\TS_SMA.dbf' size 7m autoextend on next 5m maxsize 30m;
+drop tablespace TS_SMA including contents and datafiles;
+
+--------------------Task_2--------------------
+
+create temporary tablespace TS_SMA_TEMP
+tempfile 'D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Database\Laboratory works\LBR_02\Solution\TS_SMA_TEMP.dbf' size 5m autoextend on next 3m maxsize 30m;
+drop tablespace TS_SMA_TEMP including contents and datafiles;
+
+--------------------Task_3--------------------
+
+select * from dba_tablespaces; //помимо имен получаем и другую информацию
+select tablespace_name from dba_tablespaces;
+
+--------------------Task_4--------------------
+
+create role RL_SMACORE;
+drop role RL_SMACORE;
+
+grant create session to RL_SMACORE;
+grant create table to RL_SMACORE; 
+grant create procedure to RL_SMACORE;
+grant create view to RL_SMACORE;  
+grant drop any table to RL_SMACORE;
+grant drop any procedure to RL_SMACORE; 
+grant drop any view to RL_SMACORE;
+
+--------------------Task_5--------------------
+
+select * from dba_roles where role like 'RL_SMACORE';
+select * from ROLE_SYS_PRIVS where role = 'RL_SMACORE'; //TODO: добиться разрешения создания и удаления функций ролью
+
+--------------------Task_6--------------------
+
+create profile PF_SMACORE limit
+password_life_time 180
+sessions_per_user 3
+failed_login_attempts 7
+password_lock_time 1
+password_reuse_time 10
+password_grace_time default
+connect_time 180
+idle_time 30;
+
+--------------------Task_7--------------------
+
+select profile from dba_profiles;
+select * from dba_profiles where profile = 'PF_SMACORE';
+select * from dba_profiles where profile = 'DEFAULT';
+
+--------------------Task_8--------------------
+
+create user SMACORE identified by password1337
+default tablespace TS_SMA
+temporary tablespace TS_SMA_TEMP
+profile PF_SMACORE
+account unlock
+password expire;
+
+drop user SMACORE;
+
+GRANT privileges on SMACORE TO RL_SMACORE;
+grant RL_SMACORE to SMACORE; 
+
+--------------------Task_9--------------------
+
+//Результат выполнения задания продемонстрирован в отчете
+
+--------------------Task_10--------------------
+
+//Результат выполнения задания продемонстрирован в файле SMACORE.sql
+
+
+
+
+
+
+
+
+
+
