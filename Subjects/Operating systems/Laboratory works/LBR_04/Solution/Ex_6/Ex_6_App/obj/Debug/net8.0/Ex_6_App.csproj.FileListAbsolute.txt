@@ -1,0 +1,14 @@
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\bin\Debug\net8.0\Ex_6_App.exe
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\bin\Debug\net8.0\Ex_6_App.deps.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\bin\Debug\net8.0\Ex_6_App.runtimeconfig.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\bin\Debug\net8.0\Ex_6_App.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\bin\Debug\net8.0\Ex_6_App.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.AssemblyInfoInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.AssemblyInfo.cs
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.csproj.CoreCompileInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\refint\Ex_6_App.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\Ex_6_App.genruntimeconfig.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_6\Ex_6_App\obj\Debug\net8.0\ref\Ex_6_App.dll

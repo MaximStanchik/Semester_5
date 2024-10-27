@@ -1,0 +1,25 @@
+﻿Сборка начата 04.10.2024 6:47:09.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\NerdApp.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\x64\Debug\".
+         Создание каталога "NerdApp\x64\Debug\NerdApp.tlog\".
+       InitializeBuildStatus:
+         Создание "NerdApp\x64\Debug\NerdApp.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "NerdApp\x64\Debug\NerdApp.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"NerdApp\x64\Debug\\" /Fd"NerdApp\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\x64\Debug\NerdApp.exe" /INCREMENTAL /ILK:"NerdApp\x64\Debug\NerdApp.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\x64\Debug\NerdApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\x64\Debug\NerdApp.lib" /MACHINE:X64 NerdApp\x64\Debug\Main.obj
+         NerdApp.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\x64\Debug\NerdApp.exe
+       FinalizeBuildStatus:
+         Файл "NerdApp\x64\Debug\NerdApp.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "NerdApp\x64\Debug\NerdApp.tlog\NerdApp.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4_for_nerds\NerdApp\NerdApp.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.36

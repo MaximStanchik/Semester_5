@@ -1,0 +1,14 @@
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\bin\Debug\net8.0\App_4.exe
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\bin\Debug\net8.0\App_4.deps.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\bin\Debug\net8.0\App_4.runtimeconfig.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\bin\Debug\net8.0\App_4.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\bin\Debug\net8.0\App_4.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.AssemblyInfoInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.AssemblyInfo.cs
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.csproj.CoreCompileInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\refint\App_4.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\App_4.genruntimeconfig.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_4\App_4\obj\Debug\net8.0\ref\App_4.dll

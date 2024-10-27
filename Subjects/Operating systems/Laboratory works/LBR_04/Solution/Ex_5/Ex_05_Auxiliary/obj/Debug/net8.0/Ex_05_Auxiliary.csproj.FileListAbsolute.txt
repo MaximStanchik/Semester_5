@@ -1,0 +1,14 @@
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\bin\Debug\net8.0\Ex_05_Auxiliary.exe
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\bin\Debug\net8.0\Ex_05_Auxiliary.deps.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\bin\Debug\net8.0\Ex_05_Auxiliary.runtimeconfig.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\bin\Debug\net8.0\Ex_05_Auxiliary.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\bin\Debug\net8.0\Ex_05_Auxiliary.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.AssemblyInfoInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.AssemblyInfo.cs
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.csproj.CoreCompileInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\refint\Ex_05_Auxiliary.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\Ex_05_Auxiliary.genruntimeconfig.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_5\Ex_05_Auxiliary\obj\Debug\net8.0\ref\Ex_05_Auxiliary.dll

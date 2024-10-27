@@ -1,0 +1,14 @@
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\bin\Debug\net8.0\OS04_10.exe
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\bin\Debug\net8.0\OS04_10.deps.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\bin\Debug\net8.0\OS04_10.runtimeconfig.json
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\bin\Debug\net8.0\OS04_10.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\bin\Debug\net8.0\OS04_10.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.GeneratedMSBuildEditorConfig.editorconfig
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.AssemblyInfoInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.AssemblyInfo.cs
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.csproj.CoreCompileInputs.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\refint\OS04_10.dll
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.pdb
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\OS04_10.genruntimeconfig.cache
+D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_04\Solution\Ex_10\OS04_10\obj\Debug\net8.0\ref\OS04_10.dll
