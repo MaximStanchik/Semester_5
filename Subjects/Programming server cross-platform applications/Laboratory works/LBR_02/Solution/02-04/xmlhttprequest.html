@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMLHTTPRequest Example</title>
+    <script>
+        function fetchName() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://localhost:5000/api/name', true);
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    document.getElementById('name').textContent = xhr.responseText;
+                } 
+                else {
+                    console.error('Ошибка запроса: ' + xhr.status);
+                }
+            };
+            xhr.onerror = function() {
+                console.error('Ошибка соединения');
+            };
+            xhr.send();
+        }
+        window.onload = fetchName;
+    </script>
+</head>
+<body>
+    <h1>Динамическое получение имени</h1>
+    <p>Фамилия, Имя, Отчество: <span id="name">Загрузка...</span></p>
+</body>
+</html>
+

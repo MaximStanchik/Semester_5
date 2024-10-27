@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\LaboratoryWorks\\LBR_03\\Solution\\Lab-03a-client\\Lab-03a-client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7810F7C3-31EB-4896-A3A7-EB6BE4C4491C}|Lab-03a-client.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\LaboratoryWorks\\LBR_03\\Solution\\Lab-03a-client\\Lab-03a-client\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7810F7C3-31EB-4896-A3A7-EB6BE4C4491C}|Lab-03a-client.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\Lections\\Examples\\Lection_4\\Pipe\\15-06-Client2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\User\\Downloads\\15-05-Client1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\User\\Downloads\\SimplePipeClient.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "15-06-Client2.c",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\Lections\\Examples\\Lection_4\\Pipe\\15-06-Client2.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Lections\\Examples\\Lection_4\\Pipe\\15-06-Client2.c",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\Lections\\Examples\\Lection_4\\Pipe\\15-06-Client2.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Lections\\Examples\\Lection_4\\Pipe\\15-06-Client2.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-12T05:20:06.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "15-05-Client1.c",
+              "DocumentMoniker": "D:\\User\\Downloads\\15-05-Client1.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\15-05-Client1.c",
+              "ToolTip": "D:\\User\\Downloads\\15-05-Client1.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\15-05-Client1.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-11T19:30:56.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SimplePipeClient.c",
+              "DocumentMoniker": "D:\\User\\Downloads\\SimplePipeClient.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\SimplePipeClient.c",
+              "ToolTip": "D:\\User\\Downloads\\SimplePipeClient.c",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\Downloads\\SimplePipeClient.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-11T19:30:29.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\LaboratoryWorks\\LBR_03\\Solution\\Lab-03a-client\\Lab-03a-client\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\SystemProgramming\\LaboratoryWorks\\LBR_03\\Solution\\Lab-03a-client\\Lab-03a-client\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-10-11T18:19:45.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

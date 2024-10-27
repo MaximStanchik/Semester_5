@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\SolutionC\\ClientT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5B34A3A-2C82-441F-B3E6-6074B4ADCAEE}|ClientT.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\SolutionC\\ClientT\\ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E5B34A3A-2C82-441F-B3E6-6074B4ADCAEE}|ClientT.vcxproj|solutionrelative:ClientT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientT.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\SolutionC\\ClientT\\ClientT.cpp",
+              "RelativeDocumentMoniker": "ClientT.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\SolutionC\\ClientT\\ClientT.cpp",
+              "RelativeToolTip": "ClientT.cpp",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-17T06:47:54.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

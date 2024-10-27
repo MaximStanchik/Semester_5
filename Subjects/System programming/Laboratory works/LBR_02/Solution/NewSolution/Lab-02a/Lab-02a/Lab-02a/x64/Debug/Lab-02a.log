@@ -1,0 +1,48 @@
+﻿Сборка начата 05.10.2024 11:45:54.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Lab-02a.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Lab-02a\x64\Debug\Lab-02a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Lab-02a\x64\Debug\Lab-02a.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Lab-02a\x64\Debug\\" /Fd"Lab-02a\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(23,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 1 из "const char *" в "LPCWSTR"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(23,24):
+             Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processthreadsapi.h(385,1):
+              см. объявление "CreateProcessW"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(23,10):
+             при попытке сопоставить список аргументов "(const char *, int, int, int, int, int, int, int, STARTUPINFO *, PROCESS_INFORMATION *)"
+         
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(32,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 2 из "char [256]" в "LPWSTR"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(32,30):
+             Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processthreadsapi.h(385,1):
+              см. объявление "CreateProcessW"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(32,10):
+             при попытке сопоставить список аргументов "(int, char [256], int, int, int, int, int, int, STARTUPINFO *, PROCESS_INFORMATION *)"
+         
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(41,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 1 из "const char *" в "LPCWSTR"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(41,24):
+             Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции в круглых скобках
+             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processthreadsapi.h(385,1):
+              см. объявление "CreateProcessW"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(41,10):
+             при попытке сопоставить список аргументов "(const char *, char [256], int, int, int, int, int, int, STARTUPINFO *, PROCESS_INFORMATION *)"
+         
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Lab-02a.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Lab-02a.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(23,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 1 из "const char *" в "LPCWSTR"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(32,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 2 из "char [256]" в "LPWSTR"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02a\Lab-02a\Main.cpp(41,10): error C2664: "BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)": невозможно преобразовать аргумент 1 из "const char *" в "LPCWSTR"
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:00.47

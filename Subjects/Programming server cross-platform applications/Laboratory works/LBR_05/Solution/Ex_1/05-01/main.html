@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LBR_04</title>
+</head>
+
+<body>
+    <h1>API Клиент</h1>
+    <h2>Добавить запись</h2>
+    <input type="text" id="name" placeholder="Имя" required>
+    <input type="date" id="bday" placeholder="Дата рождения" required>
+    <button id="addButton">Добавить</button>
+    <h2>Обновить запись</h2>
+    <input type="number" id="updateId" placeholder="ID записи" required>
+    <input type="text" id="updateName" placeholder="Новое имя" required>
+    <input type="date" id="updateBday" placeholder="Новая дата рождения" required>
+    <button id="updateButton">Обновить</button>
+    <h2>Удалить запись</h2>
+    <input type="number" id="deleteId" placeholder="ID записи" required>
+    <button id="deleteButton">Удалить</button>
+    <h2>Получить записи</h2>
+    <button id="getButton">Получить записи</button>
+    <pre id="result"></pre>
+    <h2>Фиксация состояния БД</h2>
+    <button id="commitButton">Фиксация</button>
+
+    <script>
+        function isValidDate(dateString) {
+            const date = new Date(dateString);
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            return !isNaN(date.getTime()) && date <= today;
+        }
+
+        document.getElementById('commitButton').onclick = function () {
+            fetch('/api/db', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'commit' })
+            })
+                .then(function (response) {
+                    if (!response.ok) {
+                        throw new Error('Ошибка фиксации');
+                    }
+                    return response.text();
+                })
+                .then(function (data) {
+                    document.getElementById('result').textContent = data;
+                })
+                .catch(function (error) {
+                    document.getElementById('result').textContent = 'Ошибка: ' + error.message;
+                });
+        };
+
+
+
+        document.getElementById('addButton').onclick = function () {
+            const name = document.getElementById('name').value;
+            const bday = document.getElementById('bday').value;
+
+            if (!name || !bday) {
+                document.getElementById('result').textContent = 'Имя и дата рождения обязательны';
+                return;
+            }
+
+            if (!isValidDate(bday)) {
+                document.getElementById('result').textContent = 'Некорректная дата рождения или дата в будущем';
+                return;
+            }
+
+            fetch('/api/db', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, bday })
+            })
+                .then(function (response) {
+                    if (!response.ok) throw new Error('Ошибка добавления');
+                    return response.json();
+                })
+                .then(function (data) {
+                    document.getElementById('result').textContent = 'Строка успешно добавлена';
+                })
+                .catch(function (error) {
+                    document.getElementById('result').textContent = 'Ошибка: ' + error.message;
+                });
+        };
+
+        document.getElementById('updateButton').onclick = function () {
+            const id = document.getElementById('updateId').value;
+            const name = document.getElementById('updateName').value;
+            const bday = document.getElementById('updateBday').value;
+
+            if (!id || !name || (bday && !isValidDate(bday))) {
+                document.getElementById('result').textContent = 'Некорректные данные';
+                return;
+            }
+
+            fetch(`/api/db?id=${id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, bday })
+            })
+                .then(function (response) {
+                    if (!response.ok) throw new Error('Ошибка обновления');
+                    return response.json();
+                })
+                .then(function (data) {
+                    document.getElementById('result').textContent = 'Обновлено: ' + JSON.stringify(data);
+                })
+                .catch(function (error) {
+                    document.getElementById('result').textContent = 'Ошибка: ' + error.message;
+                });
+        };
+
+        document.getElementById('deleteButton').onclick = function () {
+            const id = document.getElementById('deleteId').value;
+            fetch(`/api/db?id=${id}`, { method: 'DELETE' })
+                .then(function (response) {
+                    if (!response.ok) throw new Error('Ошибка удаления');
+                    return response.json();
+                })
+                .then(function (data) {
+                    document.getElementById('result').textContent = 'Удалено: ' + JSON.stringify(data);
+                })
+                .catch(function (error) {
+                    document.getElementById('result').textContent = 'Ошибка: ' + error.message;
+                });
+        };
+
+        document.getElementById('getButton').onclick = function () {
+            fetch('/api/db')
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+                })
+                .catch(function (error) {
+                    document.getElementById('result').textContent = 'Ошибка: ' + error.message;
+                });
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+﻿Сборка начата 14.09.2024 8:48:04.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\System programming\Laboratory works\LBR_01\Solution_1\LBR_01\LBR_01.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "LBR_01\x64\Debug\LBR_01.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"LBR_01\x64\Debug\\" /Fd"LBR_01\x64\Debug\vc143.pdb" /external:W3 /Gd /TC /FC /errorReport:prompt Main.c
+         Main.c
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\System programming\Laboratory works\LBR_01\Solution_1\LBR_01\Main.c(45,26): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+       Link:
+         Для всех выходных данных обновления не требуется.
+         LBR_01.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\System programming\Laboratory works\LBR_01\Solution_1\LBR_01\x64\Debug\LBR_01.exe
+       FinalizeBuildStatus:
+         Файл "LBR_01\x64\Debug\LBR_01.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "LBR_01\x64\Debug\LBR_01.tlog\LBR_01.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\System programming\Laboratory works\LBR_01\Solution_1\LBR_01\LBR_01.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\System programming\Laboratory works\LBR_01\Solution_1\LBR_01\LBR_01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\System programming\Laboratory works\LBR_01\Solution_1\LBR_01\Main.c(45,26): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.53

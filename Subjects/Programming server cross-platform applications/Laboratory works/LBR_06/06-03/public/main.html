@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка почты</title>
+</head>
+<body>
+    <h1>Отправка сообщения</h1>
+    <form id="emailForm">
+        <label for="message">Сообщение:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <button type="submit">Отправить</button>
+    </form>
+
+    <script>
+        document.getElementById('emailForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach(function(value, key) {
+                data[key] = value;
+            });
+
+            fetch('/send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(data) {
+                alert(data.message);
+            })
+            .catch(function(error) {
+                console.error('Ошибка:', error);
+            });
+        });
+    </script>
+</body>
+</html>

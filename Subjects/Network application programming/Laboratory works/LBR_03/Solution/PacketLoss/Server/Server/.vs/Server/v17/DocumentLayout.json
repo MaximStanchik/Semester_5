@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\PacketLoss\\Server\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\Solution\\ServerT\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\ServerU\\ServerU\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587594B3-6D41-4789-86C6-558584B731E5}|Server.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\PacketLoss\\Server\\Server\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{587594B3-6D41-4789-86C6-558584B731E5}|Server.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\Solution\\ServerT\\Main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\LBR_02\\Solution\\ServerT\\Main.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_02\\Solution\\ServerT\\Main.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\LBR_02\\Solution\\ServerT\\Main.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T08:02:24.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\ServerU\\ServerU\\Main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\ServerU\\ServerU\\Main.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\ServerU\\ServerU\\Main.cpp",
+              "RelativeToolTip": "..\\..\\..\\ServerU\\ServerU\\Main.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T08:02:05.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\PacketLoss\\Server\\Server\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_03\\Solution\\PacketLoss\\Server\\Server\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T07:34:08.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+﻿Сборка начата 05.10.2024 8:59:18.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02x\Lab-02x\Lab-02x.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Lab-02x\x64\Debug\Lab-02x.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Lab-02x\x64\Debug\Lab-02x.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Lab-02x\x64\Debug\\" /Fd"Lab-02x\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02x\Lab-02x\x64\Debug\Lab-02x.exe" /INCREMENTAL /ILK:"Lab-02x\x64\Debug\Lab-02x.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02x\Lab-02x\x64\Debug\Lab-02x.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02x\Lab-02x\x64\Debug\Lab-02x.lib" /MACHINE:X64 "Lab-02x\x64\Debug\Main.obj"
+         Lab-02x.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02x\Lab-02x\x64\Debug\Lab-02x.exe
+       FinalizeBuildStatus:
+         Файл "Lab-02x\x64\Debug\Lab-02x.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Lab-02x\x64\Debug\Lab-02x.tlog\Lab-02x.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_02\Solution\NewSolution\Lab-02x\Lab-02x\Lab-02x.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.83

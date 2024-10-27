@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Example</title>
+    <script>
+        async function fetchName() {
+            try {
+                const response = await fetch('http://localhost:5000/api/name');
+                if (!response.ok) {
+                    throw new Error('Сеть ответила с ошибкой: ' + response.status);
+                }
+                const name = await response.text();
+                document.getElementById('name').textContent = name;
+            } catch (error) {
+                console.error('Ошибка при выполнении запроса:', error);
+                document.getElementById('name').textContent = 'Ошибка загрузки';
+            }
+        }
+
+        window.onload = fetchName;
+    </script>
+</head>
+<body>
+    <h1>Динамическое получение имени</h1>
+    <p>Фамилия, Имя, Отчество: <span id="name">Загрузка...</span></p>
+</body>
+</html>

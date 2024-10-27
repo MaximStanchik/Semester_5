@@ -1,0 +1,16 @@
+{
+  "private": false,
+  "dependencies": {
+    "sendmail": "1.6.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "m0603-n42v3887bbnhjw",
+  "version": "1.0.0",
+  "description": "Модуль для отправки почты с использованием sendmail",
+  "main": "m0603.js",
+  "devDependencies": {},
+  "author": "Maxim Stanchik",
+  "license": "ISC"
+} 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+</head>
+<body>
+    <div id="results" class="result"></div>
+    <div id="total-time"></div>
+    
+    <script>
+        async function fetchFactorials() {
+            const resultsDiv = document.getElementById('results');
+            const totalTimeDiv = document.getElementById('total-time');
+            resultsDiv.innerHTML = '';
+
+            const startTime = Date.now(); 
+            for (let x = 1; x <= 20; x++) {
+                const response = await fetch('http://localhost:5000/fact?k=' + x);
+                const data = await response.json();
+                const elapsedTime = Date.now() - startTime; 
+                resultsDiv.innerHTML += `<p>${x - 1}. Результат: ${elapsedTime}-${data.k}/${data.fact}</p>`;
+            }
+            const total_time = Date.now() - startTime; 
+            totalTimeDiv.innerHTML = `<p>Общее время выполнения: ${total_time} мс</p>`;
+        }
+
+        fetchFactorials(); 
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿Сборка начата 19.10.2024 9:34:35.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\NewSolution\Lab-03a-server\Lab-03a-server\Lab-03a-server.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Lab-03a-server\x64\Debug\Lab-03a-server.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         Lab-03a-server.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\NewSolution\Lab-03a-server\Lab-03a-server\x64\Debug\Lab-03a-server.exe
+       FinalizeBuildStatus:
+         Файл "Lab-03a-server\x64\Debug\Lab-03a-server.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Lab-03a-server\x64\Debug\Lab-03a-server.tlog\Lab-03a-server.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\NewSolution\Lab-03a-server\Lab-03a-server\Lab-03a-server.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.05

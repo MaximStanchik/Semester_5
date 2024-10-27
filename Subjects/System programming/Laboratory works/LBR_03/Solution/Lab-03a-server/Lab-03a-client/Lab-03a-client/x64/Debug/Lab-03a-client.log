@@ -1,0 +1,29 @@
+﻿Сборка начата 12.10.2024 10:28:59.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\Lab-03a-client.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Lab-03a-client\x64\Debug\Lab-03a-client.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Lab-03a-client\x64\Debug\Lab-03a-client.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Lab-03a-client\x64\Debug\\" /Fd"Lab-03a-client\x64\Debug\vc143.pdb" /external:W3 /Gd /TC /FC /errorReport:prompt Main.c
+         Main.c
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\Main.c(28,60): warning C4133: функция: несовместимые типы - из "const char *" в "LPCWSTR"
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\x64\Debug\Lab-03a-client.exe" /INCREMENTAL /ILK:"Lab-03a-client\x64\Debug\Lab-03a-client.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\x64\Debug\Lab-03a-client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\x64\Debug\Lab-03a-client.lib" /MACHINE:X64 "Lab-03a-client\x64\Debug\Main.obj"
+         Lab-03a-client.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\x64\Debug\Lab-03a-client.exe
+       FinalizeBuildStatus:
+         Файл "Lab-03a-client\x64\Debug\Lab-03a-client.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Lab-03a-client\x64\Debug\Lab-03a-client.tlog\Lab-03a-client.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\Lab-03a-client.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\Lab-03a-client.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_03\Solution\Lab-03a-client\Lab-03a-client\Main.c(28,60): warning C4133: функция: несовместимые типы - из "const char *" в "LPCWSTR"
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.35

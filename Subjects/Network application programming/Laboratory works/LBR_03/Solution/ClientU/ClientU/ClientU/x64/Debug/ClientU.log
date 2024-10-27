@@ -1,0 +1,22 @@
+﻿Сборка начата 22.10.2024 9:40:50.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_03\Solution\ClientU\ClientU\ClientU.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "ClientU\x64\Debug\ClientU.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ClientU\x64\Debug\ClientU.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         ClientU.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_03\Solution\ClientU\ClientU\x64\Debug\ClientU.exe
+       FinalizeBuildStatus:
+         Файл "ClientU\x64\Debug\ClientU.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "ClientU\x64\Debug\ClientU.tlog\ClientU.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_03\Solution\ClientU\ClientU\ClientU.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.04

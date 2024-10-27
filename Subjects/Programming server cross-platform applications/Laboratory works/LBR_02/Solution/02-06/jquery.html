@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery AJAX Example</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-5gV6I7QXf5z+N7V4dD5Z8X5mQq5a9p6e4e4P2n4G4tR6T6bJ4r6Y5Z5f5q5g6Y5" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: 'http://localhost:5000/api/name',
+                method: 'GET',
+                success: function(data) {
+                    $('#name').text(data);
+                },
+                error: function() {
+                    $('#name').text('Ошибка загрузки');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Динамическое получение имени с помощью jQuery AJAX</h1>
+    <p>Фамилия, Имя, Отчество: <span id="name">Загрузка...</span></p>
+</body>
+</html>
