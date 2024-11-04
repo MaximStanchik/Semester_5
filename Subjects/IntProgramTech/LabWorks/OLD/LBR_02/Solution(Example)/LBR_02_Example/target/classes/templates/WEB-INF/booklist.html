@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Book List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css?v=1.0}"/>
+    <style>
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .action-buttons button {
+            flex: 1;
+            margin: 0 4px;
+        }
+    </style>
+</head>
+<body>
+<h1>Book List</h1>
+<h2> <a  href="addbook">Add new book</a> </h2>
+<br/><br/>
+<div class="container">
+    <table class ="container" border="1">
+        <tr>
+            <th><h1>Title</h1></th>
+            <th><h1>Author</h1></th>
+            <th><h1>Actions</h1></th>
+        </tr>
+        <tr th:each="book, index : ${books}">
+            <td contenteditable="true" th:utext="${book.title}">...</td>
+            <td contenteditable="true" th:utext="${book.author}">...</td>
+            <td class="action-buttons">
+                <form th:action="@{'/deletebook/' + ${index.index}}" method="post">
+                    <input type="hidden" name="index" th:value="${index.index}" />
+                    <button type="submit">Delete</button>
+                </form>
+                <form th:action="@{'/editbook/' + ${index.index}}" method="post">
+                    <input type="hidden" name="index" th:value="${index.index}" />
+                    <button type="submit">Edit</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete card</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css?v=1.0}"/>
+</head>
+<body>
+<h1>Delete card:</h1>
+<table class ="container" border="1">
+    <tr>
+        <th><h1>Number</h1></th>
+        <th><h1>Client</h1></th>
+    </tr>
+    <tr th:each ="card : ${cards}">
+        <td th:utext="${card.number}">...</td>
+        <td th:utext="${card.client}">...</td>
+    </tr>
+</table>
+</body>
+</html>

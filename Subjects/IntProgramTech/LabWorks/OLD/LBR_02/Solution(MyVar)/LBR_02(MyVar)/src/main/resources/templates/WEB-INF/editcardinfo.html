@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Edit Book Information</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css?v=1.0}"/>
+    <style>
+        a {
+        color: black;
+        text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<h1>Edit Card Information</h1>
+<form th:action="@{/updatecard}" th:object="${editCardForm}" method="post">
+    <input type="hidden" th:name="index" th:value="*{index}" />
+    <table border="1">
+        <tr>
+            <th><h1>Number</h1></th>
+            <th><h1>Client</h1></th>
+        </tr>
+        <tr>
+            <td><input type="text" th:value="*{number}" th:name="number"/></td>
+            <td><input type="text" th:value="*{client}" th:name="client"/></td>
+        </tr>
+    </table>
+    <button type="submit" id="saveButton">Save changes</button>
+    <a href="/allcards">Return to table page</a>
+</form>
+</body>
+</html>
