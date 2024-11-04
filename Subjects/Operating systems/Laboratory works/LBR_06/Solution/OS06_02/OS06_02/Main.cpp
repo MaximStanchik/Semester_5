@@ -1,40 +1,56 @@
 #include <iostream>
 #include <thread>
-#include <mutex>
-#include <condition_variable>
-#include <chrono>
+#include <windows.h>
+
+// Maxim Stanchik
 
 using namespace std;
 
-mutex mtx;
-condition_variable conditionVariable;
-bool turnSequence = true;
+CRITICAL_SECTION criticalSection;
 
-void createThread(string threadName) {
-    for (int i = 0; i < 90; i++) {
-        if (i < 30 || i > 60) {
-            this_thread::sleep_for(chrono::milliseconds(100));
-            cout << "Поток " << threadName << ". Итерация " << i << endl;
+DWORD WINAPI threadFunction(LPVOID lpParam) {
+    string threadName = *(string*)lpParam; 
+    delete (string*)lpParam; 
+
+    for (int i = 1; i <= 90; i++) {
+        if (i == 30) {
+            EnterCriticalSection(&criticalSection);
         }
-        else {
-            unique_lock<mutex> lock(mtx);
-            conditionVariable.wait(lock, [&] { return (threadName == "A" && turnSequence) || (threadName == "B" && !turnSequence); });
 
-            cout << "Поток " << threadName << ". Итерация " << i << endl;
+        cout << "Поток " << threadName << ". Итерация " << i << endl;
+        this_thread::sleep_for(chrono::milliseconds(100)); 
 
-            turnSequence = !turnSequence;
-            conditionVariable.notify_all();
+        if (i == 60) {
+            LeaveCriticalSection(&criticalSection);
         }
     }
+
+    return 0;
+}
+
+HANDLE createThread(const string& threadName) {
+    return CreateThread(nullptr, 0, threadFunction, (LPVOID)new string(threadName), 0, nullptr);
 }
 
 int main() {
     setlocale(LC_ALL, "Rus");
-    thread A(createThread, "A");
-    thread B(createThread, "B");
 
-    A.join();
-    B.join();
+    InitializeCriticalSection(&criticalSection); 
+
+    const int size = 2;
+    HANDLE threads[size];
+
+    threads[0] = createThread("A");
+    threads[1] = createThread("B");
+
+    WaitForMultipleObjects(size, threads, TRUE, INFINITE);
+
+    cout << "Освобождение ресурсов..." << endl;
+    for (int i = 0; i < size; i++) {
+        CloseHandle(threads[i]);
+    }
+
+    DeleteCriticalSection(&criticalSection); 
 
     cout << "Все потоки завершены" << endl;
     return 0;

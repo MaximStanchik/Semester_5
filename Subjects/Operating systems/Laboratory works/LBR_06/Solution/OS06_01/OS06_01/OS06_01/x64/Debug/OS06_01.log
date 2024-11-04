@@ -1,0 +1,70 @@
+﻿Сборка начата 01.11.2024 8:26:18.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\OS06_01.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "OS06_01\x64\Debug\OS06_01.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"OS06_01\x64\Debug\\" /Fd"OS06_01\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(23,9): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,13): error C2065: lock: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bts"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,18): error C2065: bts: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "check"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jc"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,13): error C2065: jc: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "waiting"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,16): error C2065: waiting: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jmp"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,13): error C2065: jmp: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "end"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(28,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "waiting"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,17): warning C4551: в вызове функции отсутствует список аргументов
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(29,13): error C2065: pause: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(30,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(32,5): error C2059: синтаксическая ошибка: }
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(38,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,9): error C2065: lock: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btr"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,14): error C2065: btr: необъявленный идентификатор
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "check"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(41,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\OS06_01.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\OS06_01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,17): warning C4551: в вызове функции отсутствует список аргументов
+
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\OS06_01.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(23,9): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,13): error C2065: lock: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "bts"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,18): error C2065: bts: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(25,22): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "check"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jc"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,13): error C2065: jc: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,16): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "waiting"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(26,16): error C2065: waiting: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "jmp"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,13): error C2065: jmp: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(27,17): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "end"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(28,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "waiting"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(29,13): error C2065: pause: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(30,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(32,5): error C2059: синтаксическая ошибка: }
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(38,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,9): error C2065: lock: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "btr"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,14): error C2065: btr: необъявленный идентификатор
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(40,18): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "check"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\OS06_01\OS06_01\Main.cpp(41,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+
+    Предупреждений: 1
+    Ошибок: 22
+
+Прошло времени 00:00:00.58

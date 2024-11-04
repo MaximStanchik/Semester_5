@@ -1,0 +1,25 @@
+﻿Сборка начата 01.11.2024 10:11:23.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\Ex_3\OS06_03B\OS06_03B\OS06_03B.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "OS06_03B\x64\Debug\OS06_03B.tlog\OS06_03B.lastbuildstate" удаляется.
+       PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "OS06_03B\x64\Debug\OS06_03B.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "OS06_03B\x64\Debug\OS06_03B.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"OS06_03B\x64\Debug\\" /Fd"OS06_03B\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\Ex_3\OS06_03B\OS06_03B\x64\Debug\OS06_03B.exe" /INCREMENTAL /ILK:"OS06_03B\x64\Debug\OS06_03B.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\Ex_3\OS06_03B\OS06_03B\x64\Debug\OS06_03B.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\Ex_3\OS06_03B\OS06_03B\x64\Debug\OS06_03B.lib" /MACHINE:X64 OS06_03B\x64\Debug\Main.obj
+         OS06_03B.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\Ex_3\OS06_03B\OS06_03B\x64\Debug\OS06_03B.exe
+       FinalizeBuildStatus:
+         Файл "OS06_03B\x64\Debug\OS06_03B.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "OS06_03B\x64\Debug\OS06_03B.tlog\OS06_03B.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_06\Solution\Ex_3\OS06_03B\OS06_03B\OS06_03B.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.91
