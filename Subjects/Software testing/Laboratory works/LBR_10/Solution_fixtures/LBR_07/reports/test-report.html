@@ -1,0 +1,1031 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>ExtentReports</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>ExtentReports</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Nov 3, 2024 09:52:48 PM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='warning'><a href='#!'>Warning <i class='material-icons orange-text'>warning</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m12 l12 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='60%'><span class='strong'>3</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='40%'>2</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>Тест поиска в категории электроника с термином: smartphone</span>
+						<span class='test-time'>Nov 3, 2024 09:52:54 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 3, 2024 09:52:54 PM</span>
+	<span class='label end-time'>Nov 3, 2024 09:52:59 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+959ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy A15 5G A Series Cell Phone, 128GB Unlocked Android Smartphone, AMOLED Display, Expandable Storage, Knox Security, Super Fast Charging, US Version, 2024, Blue Black
+799
+4K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$155.51(6 used & new offers)
+Also available in Light Blue
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy A35 5G A Series Cell Phone, 128GB Unlocked Android Smartphone, AMOLED Display, Advanced Triple Camera System, Expandable Storage, Rugged Design, US Version, 2024, Awesome Navy
+383
+4K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$298.97(3 used & new offers)
+Also available in Lilac
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Overall Pick
+
+
+Moto G Play | 2024 | Unlocked | Made for US 4/64GB | 50MP Camera | Sapphire Blue
+1,460
+2K+ bought in past month
+See options
+No featured offers available
+$99.73(17 used & new offers)
+Also available in Navy Blue
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB AI Smartphone, Unlocked Android, 200MP, 100x Zoom Cameras, Long Battery Life, S Pen, US Version, 2024, Titanium Black
+Options:
+3 sizes
+3,194
+1K+ bought in past month
+2 sustainability features
+See options
+No featured offers available
+$930.10(18 used & new offers)
++
++2
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': OnePlus 12,12GB RAM+256GB,Dual-SIM,Unlocked Android Smartphone,Supports Fastest 50W Wireless Charging,with The Latest Mobile Processor,Advanced Hasselblad Camera,5400 mAh Battery,2024,Silky Black
+Options:
+2 sizes
+587
+500+ bought in past month
+See options
+No featured offers available
+$643.49(14 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': OnePlus Nord N30 5G | Unlocked Dual-SIM Android Smart Phone | 6.7" LCD Display | 8 +128GB | 5000 mAh Battery | 50W Fast Charging | 108MP Camera | Chromatic Gray
+1,038
+1K+ bought in past month
+See options
+No featured offers available
+$200.97(15 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Google Pixel 8 - Unlocked Android Smartphone with Advanced Pixel Camera, 24-Hour Battery, and Powerful Security - Obsidian - 128 GB
+Options:
+3 sizes
+2,584
+2K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$453.57(22 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy A25 5G A Series Cell Phone, 128GB Unlocked Android Smartphone, AMOLED Display, Advanced Triple Camera System, Expandable Storage, Stereo Speakers, US Version, 2024, Black
+296
+500+ bought in past month
+See options
+No featured offers available
+$175.19(16 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': OnePlus 12R, 16GB RAM+256GB, Dual-SIM, US Factory Unlocked Android Smartphone, 5500 mAh Battery, 50MP Camera, 80W Fast Charging, 2024, Cool Blue
+Options:
+2 sizes
+482
+300+ bought in past month
+See options
+No featured offers available
+$524.69(12 used & new offers)
+Also available in Gray
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Motorola Edge+ | 2023 | Unlocked | Made for US 8/512 | 50 MPCamera | Intersteller Black, 161.16x74x8.59
+649
+400+ bought in past month
+See options
+No featured offers available
+$445.49(12 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Motorola Moto G Stylus 5G | 2023 | Unlocked | Made for US 6/256GB | 50 MPCamera | Cosmic Black, 162.83x73.77x9.29
+615
+500+ bought in past month
+See options
+No featured offers available
+$178.19(14 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': OnePlus Open, 16GB RAM+512GB, Dual-SIM, Voyager Black, US Factory Unlocked Android Smartphone, 4805 mAh Battery, 67W Fast Charging, Hasselblad Camera, 120Hz Fluid Display
+254
+300+ bought in past month
+See options
+No featured offers available
+$1,054.07(14 used & new offers)
+Also available in Emerald Dusk
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:52:59 PM</td>
+				<td class='step-details'>
+						Тест поиска в категории электроника завершен.
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  warning' status='warning' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Тест поиска в категории электроника с термином: tablet</span>
+						<span class='test-time'>Nov 3, 2024 09:53:06 PM</span>
+						<span class='test-status right warning'>warning</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 3, 2024 09:53:06 PM</span>
+	<span class='label end-time'>Nov 3, 2024 09:53:11 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 5s+213ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:10 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Featured from Amazon brands
+Amazon Fire HD 10 tablet (newest model) built for relaxation, 10.1" vibrant Full HD screen, octa-core processor, 3 GB RAM, 32 GB, Ocean
+16,066
+10K+ bought in past month
+1 sustainability feature
+See options
++2 colors/patterns
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:10 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Featured from Amazon brands
+Amazon Fire HD 10 tablet, 10.1", 1080p Full HD, 32 GB, (2021 release), Black
+122,905
+100+ bought in past month
+1 sustainability feature
+See options
++3 colors/patterns
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Overall Pick
+
+
+Apple iPad (9th Generation): with A13 Bionic chip, 10.2-inch Retina Display, 64GB, Wi-Fi, 12MP front/8MP Back Camera, Touch ID, All-Day Battery Life – Space Gray
+Options:
+2 sizes
+#1 Top Rated
+70,212
+10K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$197.99(9 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy Tab A9+ Tablet 11” 64GB Android Tablet, Big Screen, Quad Speakers, Upgraded Chipset, Multi Window Display, Slim, Light, Durable Design, US Version, 2024, Graphite
+Options:
+3 sizes
+6,541
+10K+ bought in past month
+See options
+No featured offers available
+$161.84(24 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Apple iPad (10th Generation): with A14 Bionic chip, 10.9-inch Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue
+Options:
+2 sizes
+19,376
+10K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$293.04(5 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Lenovo Tab M9-2023 - Tablet - Long Battery Life - 9" HD - Front 2MP & Rear 8MP Camera - 3GB Memory - 32GB Storage - Android 12 or Later - Folio Case Included,Gray
+Options:
+2 sizes
+1,023
+1K+ bought in past month
+See options
+No featured offers available
+$98.01(28 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy Tab A9 (64GB, 4GB, Wi-Fi Only) 8.7" Android Tablet, All Day Battery, Octa-core (6nm), Dual Speakers, International Model - X110 (256GB SD Bundle, Graphite)
+91
+500+ bought in past month
+See options
+No featured offers available
+$113.95(7 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Samsung Galaxy Tab A7 Lite 8.7" (2021, WiFi + Cellular) 32GB 4G LTE Tablet & Phone (Makes Calls) GSM Unlocked, International Model w/US Charging Cube - SM-T225 (Grey, LTE+WiFi)
+1,454
+500+ bought in past month
+See options
+No featured offers available
+$122.87(10 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Fire HD 8 tablet, 8" HD display, 32 GB, (2020 release), designed for portable entertainment, Twilight Blue
+#1 Top Rated
+173,811
+100+ bought in past month
+See options
++3 colors/patterns
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Samsung Galaxy Tab S9 FE 10.9” 128GB WiFi Android Tablet, Large Display, Long Battery Life, Powerful Processor, S Pen, 8MP Camera, Lightweight Durable Design, Expandable Storage, US Version,2023, Gray
+Options:
+2 sizes
+1,933
+2K+ bought in past month
+See options
+No featured offers available
+$313.47(16 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='warning'>
+				<td class='status warning' title='warning' alt='warning'><i class='material-icons'>warning</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар не принадлежит категории 'Электроника': Apple iPad 2020 (10.2-inch, Wi-Fi, 32GB) - Space Gray (Renewed)
+Options:
+2 sizes
+3,642
+2K+ bought in past month
+1 sustainability feature
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': OnePlus Pad 11.61" LCD Display, 8GB RAM,128GB Storage, MediaTek Dimensity 9000, Android 13.1, 144HZ Refresh Rate, Dolby Vision Atmos, Wi-Fi with Cellular Data Sharing Tablet
+301
+200+ bought in past month
+See options
+No featured offers available
+$310.92(11 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Apple iPad Mini (A15 Bionic): 8.3-inch Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Space Gray
+Options:
+2 sizes
+10,846
+8K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$315.51(14 used & new offers)
++3 colors/patterns
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': SAMSUNG Galaxy Tab A8 10.5” 128GB Android Tablet, LCD Screen, Kids Content, Smart Switch, Expandable Memory, Long Lasting Battery, Fast Charging, US Version, 2022, Silver, Amazon Exclusive
+Options:
+3 sizes
+25,147
+100+ bought in past month
+See options
+No featured offers available
+$134.09(30 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Sponsored
+Getting started with Wacom graphics tablet and Digital Painting With Photoshop: Learn Digital Art & Paintings On Good Fundamentals
+by Monia Mier | Apr 20, 2018
+23
+Kindle Edition
+$9
+99
+Available instantly
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:53:11 PM</td>
+				<td class='step-details'>
+						Тест поиска в категории электроника завершен.
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  warning' status='warning' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Тест поиска в категории электроника с термином: laptop</span>
+						<span class='test-time'>Nov 3, 2024 09:53:18 PM</span>
+						<span class='test-status right warning'>warning</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 3, 2024 09:53:18 PM</span>
+	<span class='label end-time'>Nov 3, 2024 09:53:22 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 4s+698ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Overall Pick
+
+
+HP 14 Laptop, Intel Celeron N4020, 4 GB RAM, 64 GB Storage, 14-inch Micro-edge HD Display, Windows 11 Home, Thin & Portable, 4K Graphics, One Year of Microsoft 365 (14-dq0040nr, Snowflake White)
+Options:
+12 capacities
+2,132
+4K+ bought in past month
+See options
+No featured offers available
+$165.56(5 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Apple 2022 MacBook Air Laptop with M2 chip: Built for Apple Intelligence, 13.6-inch Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera; Space Gray
+Options:
+2 capacities
+3,162
+6K+ bought in past month
+1 sustainability feature
+See options
+No featured offers available
+$769.00(10 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Lenovo IdeaPad 1 Student Laptop, Intel Dual Core Processor, 20GB RAM, 1TB SSD + 128GB eMMC, 15.6" FHD Display, 1 Year Office 365, Windows 11 Home, Wi-Fi 6, Webcam, Bluetooth, SD Card Reader, Grey
+Options:
+4 capacities
+803
+2K+ bought in past month
+See options
+No featured offers available
+$319.99(3 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Lenovo Newest Flagship Chromebook, 14'' FHD Touchscreen Slim Thin Light Laptop Computer, 8-Core MediaTek Kompanio 520 Processor, 4GB RAM, 64GB eMMC, WiFi 6,Chrome OS+HubxcelAccesory, Abyss Blue
+484
+2K+ bought in past month
+See options
+No featured offers available
+$185.88(6 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': HP 15.6" Portable Laptop (Include 1 Year Microsoft 365), HD Display, Intel Quad-Core N200 Processor, 16GB RAM, 128GB Storage, Wi-Fi 6, Webcam, HDMI, Numeric Keypad, Windows 11 Home, Black
+Options:
+5 capacities
+666
+500+ bought in past month
+See options
+No featured offers available
+$251.99(18 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='warning'>
+				<td class='status warning' title='warning' alt='warning'><i class='material-icons'>warning</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар не принадлежит категории 'Электроника': Lenovo Essential IdeaPad • 36GB RAM • 1.5TB Storage(512GB SSD and 1TB Cloud Storage) • 15.6" Full HD • Intel 4-core • Free 1 Year Office 365 • Wi-Fi 6 • Type-C • Windows 11 Home (15.6" None-Touch)
+12
+500+ bought in past month
+See options
+No featured offers available
+$449.85(2 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': HP Notebook Laptop, 15.6" HD Touchscreen, Intel Core i3-1115G4 Processor, 32GB RAM, 1TB PCIe SSD, Webcam, Type-C, HDMI, SD Card Reader, Wi-Fi, Windows 11 Home, Silver
+Options:
+9 capacities
+1,131
+1K+ bought in past month
+See options
+No featured offers available
+$299.99(28 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Dell Inspiron 3511 Laptop, 15.6" Full HD Touchscreen, Intel Core i5-1135G7 (Beats Intel i7-1065G7), 32GB DDR4 RAM, 1TB PCIe SSD, SD Card Reader, HDMI, Wi-Fi, Windows 11 Home, Black
+426
+500+ bought in past month
+See options
+No featured offers available
+$369.00(13 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': Lenovo 2022 Newest Ideapad 3 Laptop, 15.6" HD Touchscreen, 11th Gen Intel Core i3-1115G4 Processor, 8GB DDR4 RAM, 256GB PCIe NVMe SSD, HDMI, Webcam, Wi-Fi 5, Bluetooth, Windows 11 Home, Almond
+4,147
+400+ bought in past month
+See options
+No featured offers available
+$257.89(18 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='warning'>
+				<td class='status warning' title='warning' alt='warning'><i class='material-icons'>warning</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар не принадлежит категории 'Электроника': Dell Chromebook 11 3100 11.6" Chromebook - 1366 x 768 - Celeron N4020-4 GB RAM - 16 GB Flash Memory - Chrome OS - Intel HD Graphics - English (US) Keyboard - Bluetooth (Renewed)
+404
+500+ bought in past month
+1 sustainability feature
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': ASUS L410 MA-DB02 Ultra Thin Laptop, 14” FHD Display, Intel Celeron N4020 Processor, 4GB RAM, 64GB Storage, NumberPad, Windows 10 Home in S Mode, Star Black
+Options:
+4 capacities
+827
+100+ bought in past month
+See options
+No featured offers available
+$132.95(23 used & new offers)
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Товар принадлежит категории 'Электроника': HP 14 Laptop (14" Micro-Edge, Intel N4120, 16GB RAM, 192GB(64GB eMMC+128GB SD), 1-Yr Microsoft 365, 11-Hrs Long Battery Life, Narrow-Bezel, Webcam, WiFi, Win 11 Home in S Mode, Student & Home, White
+Options:
+5 capacities
+87
+100+ bought in past month
+See options
+No featured offers available
+$249.98(1 new offer)
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:53:22 PM</td>
+				<td class='step-details'>
+						Тест поиска в категории электроника завершен.
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>Тест авторизации на Amazon</span>
+						<span class='test-time'>Nov 3, 2024 09:53:29 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 3, 2024 09:53:29 PM</span>
+	<span class='label end-time'>Nov 3, 2024 09:53:41 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+647ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:53:41 PM</td>
+				<td class='step-details'>
+						Авторизация прошла успешно.
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>Тест печати куки</span>
+						<span class='test-time'>Nov 3, 2024 09:53:48 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Nov 3, 2024 09:53:48 PM</span>
+	<span class='label end-time'>Nov 3, 2024 09:53:50 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+36ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: i18n-prefs=USD; expires=Mon, 03 Nov 2025 09:53:48 MSK; path=/; domain=.amazon.com; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: sp-cdn="L5Z9:BY"; expires=Mon, 03 Nov 2025 09:53:48 MSK; path=/; domain=.amazon.com;secure;; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: ubid-main=134-4349926-0812051; expires=Mon, 03 Nov 2025 09:53:49 MSK; path=/; domain=.amazon.com;secure;; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: session-id-time=2082787201l; expires=Mon, 03 Nov 2025 09:53:48 MSK; path=/; domain=.amazon.com;secure;; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: skin=noskin; path=/; domain=.amazon.com; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: csm-hit=tb:s-NYBZQ0PW30K02399K743|1730660028970&t:1730660029143&adb:adblk_no; expires=Sun, 19 Oct 2025 09:53:49 MSK; path=/; domain=www.amazon.com; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Cookie: session-id=139-0542990-3921033; expires=Mon, 03 Nov 2025 09:53:48 MSK; path=/; domain=.amazon.com;secure;; sameSite=Lax
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>9:53:50 PM</td>
+				<td class='step-details'>
+						Тест печати куки завершен.
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>5</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>0</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Nov 3, 2024 09:52:48 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Nov 3, 2024 09:53:50 PM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 1m 2s+433ms</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 5,
+				passParent: 3,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 2,
+				skipParent: 0,
+				exceptionsParent: 2,
+				childCount: 0,
+				passChild: 0,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 0,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "Тест поиска в категории электроника с термином: smartphone":4.959,"Тест поиска в категории электроника с термином: tablet":5.213,"Тест поиска в категории электроника с термином: laptop":4.698,"Тест авторизации на Amazon":12.647,"Тест печати куки":2.036
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

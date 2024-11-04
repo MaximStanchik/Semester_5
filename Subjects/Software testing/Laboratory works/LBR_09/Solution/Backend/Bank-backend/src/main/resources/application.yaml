@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Bank-backend
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+    username: system
+    password: kika1337RlolikPOP
+    driver-class-name: oracle.jdbc.OracleDriver
+
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: none
