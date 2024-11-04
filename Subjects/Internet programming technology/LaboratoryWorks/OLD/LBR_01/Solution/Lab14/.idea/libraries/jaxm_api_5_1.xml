@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jaxm-api-5.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jaxm-api-5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
