@@ -1,0 +1,33 @@
+﻿Сборка начата 12.11.2024 9:40:47.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\ClientU.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "ClientU\x64\Debug\ClientU.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "ClientU\x64\Debug\ClientU.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"ClientU\x64\Debug\\" /Fd"ClientU\x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp
+         Main.cpp
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\Main.cpp(25,65): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\Main.cpp(54,37): warning C4305: аргумент: усечение из "int" в "u_short"
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\Main.cpp(54,37): warning C4309: аргумент: усечение константного значения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\x64\Debug\ClientU.exe" /INCREMENTAL /ILK:"ClientU\x64\Debug\ClientU.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\x64\Debug\ClientU.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\x64\Debug\ClientU.lib" /MACHINE:X64 ClientU\x64\Debug\Main.obj
+         ClientU.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\x64\Debug\ClientU.exe
+       FinalizeBuildStatus:
+         Файл "ClientU\x64\Debug\ClientU.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "ClientU\x64\Debug\ClientU.tlog\ClientU.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\ClientU.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\ClientU.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\Main.cpp(25,65): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\Main.cpp(54,37): warning C4305: аргумент: усечение из "int" в "u_short"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_04\Solution\ClientU\ClientU\Main.cpp(54,37): warning C4309: аргумент: усечение константного значения
+
+    Предупреждений: 3
+    Ошибок: 0
+
+Прошло времени 00:00:01.03

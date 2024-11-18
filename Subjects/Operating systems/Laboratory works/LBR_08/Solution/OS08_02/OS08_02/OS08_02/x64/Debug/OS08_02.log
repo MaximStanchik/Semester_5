@@ -1,0 +1,29 @@
+﻿Сборка начата 13.11.2024 11:26:55.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\OS08_02.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "OS08_02\x64\Debug\OS08_02.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "OS08_02\x64\Debug\OS08_02.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\x64\Debug\OS08_02.exe" /INCREMENTAL /ILK:"OS08_02\x64\Debug\OS08_02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\x64\Debug\OS08_02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /BASE:"0x00400000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\x64\Debug\OS08_02.lib" /MACHINE:X64 OS08_02\x64\Debug\Main.obj
+     1>LINK : warning LNK4281: нежелательный базовый адрес 0x400000 для образа x64; для наилучшей оптимизации ASLR установите базовый адрес выше 4 ГБ
+         OS08_02.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\x64\Debug\OS08_02.exe
+       FinalizeBuildStatus:
+         Файл "OS08_02\x64\Debug\OS08_02.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "OS08_02\x64\Debug\OS08_02.tlog\OS08_02.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\OS08_02.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\OperatingSystems\LaboratoryWorks\LBR_08\Solution\OS08_02\OS08_02\OS08_02.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         LINK : warning LNK4281: нежелательный базовый адрес 0x400000 для образа x64; для наилучшей оптимизации ASLR установите базовый адрес выше 4 ГБ
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.47

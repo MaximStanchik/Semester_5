@@ -131,6 +131,7 @@
     <ClCompile Include="ServerB.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Errors.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
