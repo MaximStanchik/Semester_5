@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>startWS</title>
+</head>
+<body>
+    <h1>10-01</h1>
+    <button onclick="startWebSocket()">startWS</button>
+    <div id="messages"></div>
+    <script>
+        let socket;
+        let messageCount = 0;
+        let intervalId;
+
+        function startWebSocket() {
+            socket = new WebSocket('ws://localhost:4000');
+
+            socket.onopen = function () {
+                console.log('WebSocket connection established');
+                intervalId = setInterval(sendMessage, 3000);
+            };
+
+            socket.onmessage = function (event) {
+                console.log('Message from server: ', event.data);
+                displayMessage(event.data);
+            };
+
+            socket.onerror = function (error) {
+                console.error('WebSocket error: ', error);
+            };
+
+            socket.onclose = function () {
+                console.log('WebSocket connection closed');
+                clearInterval(intervalId);
+            };
+        }
+
+        function sendMessage() {
+            messageCount = messageCount + 1;
+            const message = `10-01-client: ${messageCount}`;
+            socket.send(message);
+            console.log('Отправлено сообщение: "' + message + '"');
+        }
+
+        function displayMessage(message) {
+            const messagesDiv = document.getElementById('messages');
+            const newMessage = document.createElement('div');
+            newMessage.textContent = message;
+            messagesDiv.appendChild(newMessage);
+        }
+    </script>
+</body>
+</html>

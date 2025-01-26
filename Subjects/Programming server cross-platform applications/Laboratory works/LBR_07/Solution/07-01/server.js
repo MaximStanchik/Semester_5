@@ -1,18 +1,14 @@
 const http = require('http');
 const fileSystem = require('fs');
-const PORT = 5000;
+const path = require('path');
+const serveStaticFiles = require('./m07-01');
 
-const server = http.createServer(function(request, response) {
-    if (request.method === 'GET') {
-        response.writeHead(405, {'Content-Type': 'text/plain; charset=utf8'});
-        response.end('Обработан метод GET');
-    }
-    else {
-        response.writeHead(405, {'Content-Type': 'text/plain; charset=utf8'});
-        response.end('Поддерживается только метод GET');
-    }
-});
+const PORT = 5000;
+const STATIC_DIR = path.join(__dirname, 'static');
+
+const server = serveStaticFiles(STATIC_DIR);
 
 server.listen(PORT, function() {
     console.log('Сервер запущен на http://localhost:' + PORT);
+    console.log('Для скачинвания файла (например index.html) запускать на http://localhost:5000//index.html');
 });

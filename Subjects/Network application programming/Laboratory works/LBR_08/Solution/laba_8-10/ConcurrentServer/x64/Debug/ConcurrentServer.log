@@ -1,0 +1,55 @@
+﻿Сборка начата 30.12.2024 11:56:31.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\ConcurrentServer.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\ConcurrentServer.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ConcurrentServer.cpp
+         ConcurrentServer.cpp
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(100,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(205,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(205,12):
+             рекомендуется использовать "%zd" в строке форматирования
+         
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(219,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(219,12):
+             рекомендуется использовать "%zd" в строке форматирования
+         
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(334,30): warning C4477: "sprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "4" имеет тип "unsigned __int64"
+             D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(334,30):
+             рекомендуется использовать "%zd" в строке форматирования
+         
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(346,42): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(391,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(432,60): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(440,62): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(276,1): warning C4715: set_param: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\x64\Debug\ConcurrentServer.exe" /INCREMENTAL /ILK:"x64\Debug\ConcurrentServer.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\x64\Debug\ConcurrentServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\x64\Debug\ConcurrentServer.lib" /MACHINE:X64 x64\Debug\ConcurrentServer.obj
+         x64\Debug\Errors.obj
+         ConcurrentServer.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\x64\Debug\ConcurrentServer.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\ConcurrentServer.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\ConcurrentServer.tlog\ConcurrentServer.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(100,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(205,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(219,12): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "unsigned __int64"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(334,30): warning C4477: "sprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "4" имеет тип "unsigned __int64"
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(346,42): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(391,30): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(432,60): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(440,62): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_08\Solution\laba_8-10\ConcurrentServer\ConcurrentServer.cpp(276,1): warning C4715: set_param: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 9
+    Ошибок: 0
+
+Прошло времени 00:00:01.46

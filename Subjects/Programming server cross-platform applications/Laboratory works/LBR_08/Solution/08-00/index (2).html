@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для задания 09</title>
+</head>
+<body>
+    <h1>Форма для задания 09</h1>
+    <form action="http://localhost:5000/formparameter" method="POST">
+        <label for="text">Текст:</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <label for="number">Число:</label>
+        <input type="number" id="number" name="number"><br><br>
+
+        <label for="date">Дата:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="checkbox">Согласен:</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="yes"><br><br>
+
+        <label for="radio1">Опция 1:</label>
+        <input type="radio" id="radio1" name="radio" value="1"><br><br>
+
+        <label for="radio2">Опция 2:</label>
+        <input type="radio" id="radio2" name="radio" value="2"><br><br>
+
+        <label for="textarea">Текстовая область:</label><br>
+        <textarea id="textarea" name="textarea"></textarea><br><br>
+
+        <input type="submit" name="submit" value="Отправить">
+        <input type="submit" name="submit" value="Отправить другой запрос"><br><br>
+    </form>
+</body>
+</html>

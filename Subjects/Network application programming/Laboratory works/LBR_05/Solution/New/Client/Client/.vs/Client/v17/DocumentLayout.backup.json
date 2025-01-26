@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1974E4-932E-47D2-9EBF-2043BE5DF689}|Client.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C1974E4-932E-47D2-9EBF-2043BE5DF689}|Client.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1974E4-932E-47D2-9EBF-2043BE5DF689}|Client.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\SetErrorMsgText.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C1974E4-932E-47D2-9EBF-2043BE5DF689}|Client.vcxproj|solutionrelative:SetErrorMsgText.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1974E4-932E-47D2-9EBF-2043BE5DF689}|Client.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9C1974E4-932E-47D2-9EBF-2043BE5DF689}|Client.vcxproj|solutionrelative:stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetErrorMsgText.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\SetErrorMsgText.cpp",
+              "RelativeDocumentMoniker": "SetErrorMsgText.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\SetErrorMsgText.cpp",
+              "RelativeToolTip": "SetErrorMsgText.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T19:00:59.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "stdafx.h",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\stdafx.h",
+              "RelativeDocumentMoniker": "stdafx.h",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\stdafx.h",
+              "RelativeToolTip": "stdafx.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-18T19:00:21.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_05\\Solution\\New\\Client\\Client\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T19:00:14.22Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

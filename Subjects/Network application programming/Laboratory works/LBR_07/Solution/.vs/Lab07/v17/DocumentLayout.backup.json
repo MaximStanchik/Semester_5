@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB9FC7A-1E5C-4CB3-84EF-450073F7FA93}|ClientMS\\ClientMS.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AB9FC7A-1E5C-4CB3-84EF-450073F7FA93}|ClientMS\\ClientMS.vcxproj|solutionrelative:ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\string.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4500FA44-F100-476F-B95D-9A386299AFCD}|ServerMS\\ServerMS.vcxproj|D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\ServerMS\\ServerMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4500FA44-F100-476F-B95D-9A386299AFCD}|ServerMS\\ServerMS.vcxproj|solutionrelative:ServerMS\\ServerMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "string.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\string.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\string.h",
+              "ViewState": "AgIAAGQAAAAAAAAAAAArwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T07:52:11.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerMS.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\ServerMS\\ServerMS.cpp",
+              "RelativeDocumentMoniker": "ServerMS\\ServerMS.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\ServerMS\\ServerMS.cpp",
+              "RelativeToolTip": "ServerMS\\ServerMS.cpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-22T01:55:03.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientMS.cpp",
+              "DocumentMoniker": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\ClientMS\\ClientMS.cpp",
+              "RelativeDocumentMoniker": "ClientMS\\ClientMS.cpp",
+              "ToolTip": "D:\\User\\Desktop\\StudyAtBSTU\\Course_3\\Semester5\\Subjects\\Network application programming\\Laboratory works\\LBR_07\\Solution\\ClientMS\\ClientMS.cpp",
+              "RelativeToolTip": "ClientMS\\ClientMS.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAUwDMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-14T07:36:27.96Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

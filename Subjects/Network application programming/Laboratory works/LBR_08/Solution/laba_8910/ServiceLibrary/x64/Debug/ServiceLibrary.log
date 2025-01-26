@@ -1,0 +1,8 @@
+﻿  ServiceLibrary.cpp
+D:\Univer\ProgrammingNetworkApp\laba_8\laba_8910\ServiceLibrary\PrototypeService.h(159,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ServiceLibrary.cpp')
+  
+  Error.cpp
+  Generating Code...
+     Creating library D:\Univer\ProgrammingNetworkApp\laba_8\laba_8910\x64\Debug\ServiceLibrary.lib and object D:\Univer\ProgrammingNetworkApp\laba_8\laba_8910\x64\Debug\ServiceLibrary.exp
+  ServiceLibrary.vcxproj -> D:\Univer\ProgrammingNetworkApp\laba_8\laba_8910\x64\Debug\ServiceLibrary.dll

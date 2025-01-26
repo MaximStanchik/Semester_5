@@ -1,0 +1,43 @@
+﻿Сборка начата 03.12.2024 10:24:30.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Server.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\x64\Release\".
+         Создание каталога "Server\x64\Release\Server.tlog\".
+       InitializeBuildStatus:
+         Создание "Server\x64\Release\Server.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Server\x64\Release\Server.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Server\x64\Release\\" /Fd"Server\x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Main.cpp SetErrorMsgText.cpp
+         Main.cpp
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(48,35): warning C4244: аргумент: преобразование "SOCKET" в "short", возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(56,33): warning C4244: аргумент: преобразование "SOCKET" в "short", возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(105,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(136,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         SetErrorMsgText.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\x64\Release\Server.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\x64\Release\Server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Server\x64\Release\Server.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\x64\Release\Server.lib" /MACHINE:X64 Server\x64\Release\Main.obj
+         Server\x64\Release\SetErrorMsgText.obj
+         Создание кода
+         Previous IPDB not found, fall back to full compilation.
+         All 114 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         Server.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\x64\Release\Server.exe
+       FinalizeBuildStatus:
+         Файл "Server\x64\Release\Server.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Server\x64\Release\Server.tlog\Server.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Server.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Server.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(48,35): warning C4244: аргумент: преобразование "SOCKET" в "short", возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(56,33): warning C4244: аргумент: преобразование "SOCKET" в "short", возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(105,41): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\Network application programming\Laboratory works\LBR_05\Solution\New\Server\Server\Main.cpp(136,37): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:01.96

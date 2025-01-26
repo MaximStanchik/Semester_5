@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index.html</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Добро пожаловать на демо-страницу!</h1>
+    
+    <h2>Изображение</h2>
+    <img src="index.png" alt="Пример изображения" />
+
+    <h2>Видео</h2>
+    <video controls>
+        <source src="index.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+
+    <h2>Документ</h2>
+    <a href="index.docx" download>Скачать документ</a>
+
+    <h2>JSON</h2>
+    <pre id="json-output">Загрузка JSON...</pre>
+
+    <h2>XML</h2>
+    <pre id="xml-output">Загрузка XML...</pre>
+
+    <script>
+        console.log("Страница загружена успешно!");
+    </script>
+</body>
+</html>

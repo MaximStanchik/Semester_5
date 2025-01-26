@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>Война и мир</title>
+        <author>Лев Толстой</author>
+        <year>1869</year>
+        <genre>Роман</genre>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>Джордж Оруэлл</author>
+        <year>1949</year>
+        <genre>Дистопия</genre>
+    </book>
+    <book>
+        <title>Гарри Поттер и философский камень</title>
+        <author>Дж.К. Роулинг</author>
+        <year>1997</year>
+        <genre>Фэнтези</genre>
+    </book>
+</library>

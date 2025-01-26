@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+</head>
+<body>
+    <h1>Headers Example</h1>
+    <button id="fetchHeaders">Fetch Headers</button>
+    <pre id="response"></pre>
+
+    <script>
+        document.getElementById('fetchHeaders').addEventListener('click', async () => {
+            try {
+                const response = await fetch('http://localhost:3000/headers');
+                const responseText = await response.text();
+                document.getElementById('response').textContent = responseText;
+            } 
+            catch (error) {
+                console.error('Error fetching headers:', error);
+                document.getElementById('response').textContent = 'Error fetching headers';
+            }
+        });
+    </script>
+</body>
+</html>
