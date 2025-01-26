@@ -1,0 +1,32 @@
+DECLARE
+    v_currency_id number;
+    v_user_id number;
+BEGIN
+    FOR i IN 1..100000 LOOP
+        SELECT ID INTO v_user_id
+        FROM (
+            SELECT ID FROM APP_USER ORDER BY DBMS_RANDOM.VALUE
+        )
+        WHERE ROWNUM = 1;
+
+        SELECT ID INTO v_currency_id
+        FROM (
+            SELECT ID FROM CURRENCY ORDER BY DBMS_RANDOM.VALUE
+        )
+        WHERE ROWNUM = 1;
+
+        INSERT INTO USER_ACCOUNT (ACCOUNT_NUMBER, CURRENCY, AMOUNT, USER_ID)
+        VALUES (
+            'ACC' || TO_CHAR(i),
+            'CUR',  -- Используем фиксированное значение
+            ROUND(DBMS_RANDOM.VALUE(100, 10000), 2),
+            v_user_id
+        );
+
+        IF MOD(i, 1000) = 0 THEN
+            COMMIT;
+        END IF;
+    END LOOP;
+
+    COMMIT;
+END;

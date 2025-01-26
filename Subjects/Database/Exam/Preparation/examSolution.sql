@@ -1,0 +1,67 @@
+CREATE OR replace FUNCTION getCountOfOrders (P_DESCRIPTION IN varchar2, P_YEAR IN integer) RETURN NUMBER IS 
+v_count_of_orders NUMBER;
+BEGIN 
+	IF P_YEAR <= 0 THEN 
+	dbms_output.put_line('The year must be positive');
+	RETURN -1;
+	ELSIF
+	P_YEAR > 2008 THEN
+	dbms_output.put_line('The year is too high');
+	RETURN -1;
+	ELSIF P_YEAR != TRUNC(P_YEAR) THEN
+	dbms_output.put_line('The year must be an integer');
+	RETURN -1;
+	ELSE 
+	SELECT count(*) INTO v_count_of_orders FROM ORDERS INNER JOIN CUSTOMERS ON ORDERS.CUST = CUSTOMERS.CUST_NUM WHERE EXTRACT (YEAR FROM ORDER_DATE) = P_YEAR AND COMPANY = P_DESCRIPTION;
+	IF v_count_of_orders = 0 THEN
+	dbms_output.put_line('There is no orders for selected company');
+	RETURN v_count_of_orders;
+	ELSE 
+	RETURN v_count_of_orders;
+	END IF;
+	END IF;
+	EXCEPTION 
+	WHEN OTHERS THEN 
+	dbms_output.put_line('An error occured ' || sqlerrm);
+END;
+
+SELECT * FROM user_errors WHERE name = 'GETCOUNTOFORDERS' AND TYPE = 'FUNCTION';
+
+DECLARE 
+	v_count NUMBER;
+BEGIN 
+	v_count := getCountOfOrders('JCP Inc.', 2026);
+	dbms_output.put_line(v_count);
+END;
+
+-- информация о заказах
+CREATE TABLE ORDERS (
+	ORDER_NUM INTEGER NOT NULL, CHECK (ORDER_NUM > 100000), 
+  	ORDER_DATE DATE NOT NULL, 
+    CUST INTEGER NOT NULL,
+    REP INTEGER,
+    MFR CHAR(3) NOT NULL, 
+    PRODUCT CHAR(5) NOT NULL, -- идентификатор продукта
+    QTY INTEGER NOT NULL, -- количество заказанного товара
+    AMOUNT DECIMAL(9,2) NOT NULL, -- общая сумма заказа
+ 	PRIMARY KEY (ORDER_NUM), 
+ 	CONSTRAINT PLACEDBY FOREIGN KEY (CUST) REFERENCES CUSTOMERS(CUST_NUM) ON DELETE CASCADE,
+ 	CONSTRAINT TAKENBY FOREIGN KEY (REP) REFERENCES SALESREPS(EMPL_NUM) ON DELETE SET NULL,
+ 	CONSTRAINT ISFOR FOREIGN KEY (MFR, PRODUCT) REFERENCES PRODUCTS(MFR_ID, PRODUCT_ID));
+ 
+ CREATE TABLE CUSTOMERS (
+	CUST_NUM INTEGER    NOT NULL, -- номер клиента
+    COMPANY  VARCHAR(20) NOT NULL, -- название компании клиента
+    CUST_REP INTEGER, -- идентификатор менеджера по работе с клиентами
+    CREDIT_LIMIT DECIMAL(9,2), -- кредитный лимит
+ 	PRIMARY KEY (CUST_NUM),
+ 	CONSTRAINT HASREP FOREIGN KEY (CUST_REP) REFERENCES SALESREPS(EMPL_NUM) ON DELETE SET NULL);
+
+
+SELECT * FROM ORDERS;
+
+SELECT * FROM ORDERS INNER JOIN CUSTOMERS ON ORDERS.CUST = CUSTOMERS.CUST_NUM WHERE EXTRACT (YEAR FROM ORDER_DATE) = 2008 AND COMPANY = 'JCP Inc.'; 
+
+SELECT * FROM ORDERS INNER JOIN CUSTOMERS ON ORDERS.CUST = CUSTOMERS.CUST_NUM; 
+
+SELECT * FROM CUSTOMERS;

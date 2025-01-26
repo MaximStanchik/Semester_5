@@ -1,0 +1,64 @@
+ P_ACCOUNT_NUMBER IN NVARCHAR2,
+    P_NEW_CURRENCY_CODE IN VARCHAR2
+) AS
+    P_SOURCE_CURR_ID NUMBER(10);
+    P_TARGET_CURR_ID NUMBER(10);
+    P_USER_ACCOUNT_CURRENCY VARCHAR2(4); 
+    P_RATE_IN_DOLLAR NUMBER(15, 2);
+    P_RATE_IN_TARGET_CURR NUMBER(15, 2);
+    P_CURRENCY_ID NUMBER(10);
+BEGIN
+    -- Проверка существования аккаунта
+    DBMS_OUTPUT.PUT_LINE('Проверка аккаунта: ' || P_ACCOUNT_NUMBER);
+    SELECT CURRENCY INTO P_SOURCE_CURR_ID 
+    FROM admin_user.User_Account 
+    WHERE ACCOUNT_NUMBER = P_ACCOUNT_NUMBER;
+
+    -- Получаем ID целевой валюты
+    DBMS_OUTPUT.PUT_LINE('Получение ID для валюты: ' || P_NEW_CURRENCY_CODE);
+    SELECT ID INTO P_TARGET_CURR_ID 
+    FROM admin_user.Currency 
+    WHERE CODE = P_NEW_CURRENCY_CODE;
+
+    -- Получаем курс обмена в долларах
+    DBMS_OUTPUT.PUT_LINE('Получение курса обмена для ID валюты: ' || P_TARGET_CURR_ID);
+    SELECT RATE INTO P_RATE_IN_DOLLAR 
+    FROM admin_user.Currency_Exchange_Rate 
+    WHERE TARGET_CURR_ID = P_TARGET_CURR_ID;
+
+    -- Обновляем учетную запись пользователя
+    UPDATE admin_user.User_Account
+    SET CURRENCY = 1,
+        AMOUNT = AMOUNT * P_RATE_IN_DOLLAR
+    WHERE ACCOUNT_NUMBER = P_ACCOUNT_NUMBER;
+
+    -- Получаем код валюты учетной записи пользователя
+    DBMS_OUTPUT.PUT_LINE('Получение кода валюты для аккаунта: ' || P_ACCOUNT_NUMBER);
+    SELECT CURRENCY INTO P_USER_ACCOUNT_CURRENCY 
+    FROM admin_user.User_Account 
+    WHERE ACCOUNT_NUMBER = P_ACCOUNT_NUMBER;
+
+    -- Получаем ID валюты пользователя
+    DBMS_OUTPUT.PUT_LINE('Получение ID для валюты учетной записи: ' || P_USER_ACCOUNT_CURRENCY);
+    SELECT ID INTO P_CURRENCY_ID 
+    FROM admin_user.Currency 
+    WHERE CODE = P_USER_ACCOUNT_CURRENCY;
+
+    -- Получаем курс обмена в целевой валюте
+    DBMS_OUTPUT.PUT_LINE('Получение курса обмена для ID валюты учетной записи: ' || P_CURRENCY_ID);
+    SELECT RATE INTO P_RATE_IN_TARGET_CURR 
+    FROM admin_user.Currency_Exchange_Rate 
+    WHERE TARGET_CURR_ID = P_CURRENCY_ID;
+
+    -- Обновляем учетную запись пользователя с новой валютой
+    UPDATE admin_user.User_Account
+    SET CURRENCY = P_CURRENCY_ID,
+        AMOUNT = AMOUNT * P_RATE_IN_TARGET_CURR
+    WHERE ACCOUNT_NUMBER = P_ACCOUNT_NUMBER;
+
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Ошибка: Не найдены данные для указанных параметров.');
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Ошибка: ' || SQLERRM);
+END;

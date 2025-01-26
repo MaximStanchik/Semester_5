@@ -171,13 +171,16 @@ select * from V$CONTROLFILE_RECORD_SECTION;
 --------------------Task_21-------------------
 show parameter pfile;
 --------------------Task_22-------------------
-create pfile = 'SMA_PFILE.ora' from spfile;
---------------------Task_23-------------------
-select * from V$PWFILE_USERS;    
+create pfile ='/opt/oracle/dbs/SMA_PFILE.ORA' from spfile;
+show parameter pfile;
+select name, description from v$parameter;
+--------------------Task_23-------------------    
 show parameter remote_login_passwordfile; --на доккере, в папке с бд
 --------------------Task_24-------------------
 select * from V$DIAG_INFO;
 
 --------------------Task_25-------------------
+SHOW PARAMETER diagnostic_dest;
+SELECT name FROM v$database;
 SELECT GROUP#, MEMBER 
 FROM V$LOGFILE;
