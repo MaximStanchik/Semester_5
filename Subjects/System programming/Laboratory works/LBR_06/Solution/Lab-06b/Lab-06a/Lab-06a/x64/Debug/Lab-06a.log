@@ -1,0 +1,41 @@
+﻿Сборка начата 30.11.2024 9:44:24.
+Уровень детализации журнала: Normal.     1>Проект "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Lab-06a.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Lab-06a\x64\Debug\Lab-06a.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Lab-06a\x64\Debug\Lab-06a.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Lab-06a\x64\Debug\\" /Fd"Lab-06a\x64\Debug\vc143.pdb" /external:W3 /Gd /TC /FC /errorReport:prompt Main.c
+         Main.c
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(58,34): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(68,57): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(86,57): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(125,12): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(131,21): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(173,11): warning C4018: <: несоответствие типов со знаком и без знака
+     1>D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(175,13): warning C4018: <: несоответствие типов со знаком и без знака
+       Link:
+         Для всех выходных данных обновления не требуется.
+         Lab-06a.vcxproj -> D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\x64\Debug\Lab-06a.exe
+       FinalizeBuildStatus:
+         Файл "Lab-06a\x64\Debug\Lab-06a.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Lab-06a\x64\Debug\Lab-06a.tlog\Lab-06a.lastbuildstate".
+     1>Сборка проекта "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Lab-06a.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Lab-06a.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(58,34): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(68,57): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(86,57): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(125,12): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(131,21): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(173,11): warning C4018: <: несоответствие типов со знаком и без знака
+         D:\User\Desktop\StudyAtBSTU\Course_3\Semester5\Subjects\SystemProgramming\LaboratoryWorks\LBR_06\Solution\Lab-06b\Lab-06a\Main.c(175,13): warning C4018: <: несоответствие типов со знаком и без знака
+
+    Предупреждений: 7
+    Ошибок: 0
+
+Прошло времени 00:00:00.60
